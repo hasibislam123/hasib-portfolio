@@ -15,14 +15,14 @@ const allProjects = [
    {
       id: 2,
       title: ' Finance Management App',
-      imageSrc: 'project1.png',
+      imageSrc: 'project1.png ',
       categories: ['Back End Development', 'Next.js', 'Laravel'],
       description: 'A full-stack time tracking application featuring secure user authentication, real-time data synchronization, and a robust API for reporting.',
       liveLink: 'https://finance-five-kappa.vercel.app',
    },
    {
       id: 3,
-      title: 'Building Smarter Apps',
+      title: ' Building Smarter Apps',
       imageSrc: 'project4.png',
       categories: ['Front End Development', 'Tailwind CSS', 'React'],
       description: 'A complex data visualization dashboard created with React and Tailwind CSS, providing clients with actionable insights into their business metrics.',
