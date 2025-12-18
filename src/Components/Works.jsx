@@ -18,7 +18,7 @@ const allProjects = [
       imageSrc: 'project1.png',
       categories: ['Back End Development', 'Next.js', 'Laravel'],
       description: 'A full-stack time tracking application featuring secure user authentication, real-time data synchronization, and a robust API for reporting.',
-      liveLink: 'https://finance-fanagement.web.app',
+      liveLink: 'https://finance-five-kappa.vercel.app',
    },
    {
       id: 3,

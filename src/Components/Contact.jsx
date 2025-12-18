@@ -47,7 +47,16 @@ export default function Contact() {
       setLoading(true);
       setStatus("");
 
+      // TODO: Replace with your actual Web3Forms access key
       const accessKey = "YOUR_ACCESS_KEY_HERE";
+
+      // Check if access key is set
+      if (accessKey === "YOUR_ACCESS_KEY_HERE") {
+         console.error("Web3Forms access key not configured!");
+         setStatus("error");
+         setLoading(false);
+         return;
+      }
 
       const formDataToSend = {
          access_key: accessKey,
@@ -64,23 +73,25 @@ export default function Contact() {
          const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
             headers: {
-               "Content-Type": "application/json",
-               Accept: "application/json",
+               "Content-Type": "application/json",c
             },
             body: JSON.stringify(formDataToSend),
          });
 
          const result = await response.json();
+         console.log("Web3Forms response:", result);
 
          if (result.success) {
             setStatus("success");
             setFormData({ fullName: "", email: "", subject: "", message: "" });
             setTimeout(() => setStatus(""), 5000);
          } else {
+            console.error("Web3Forms API error:", result);
             setStatus("error");
             setTimeout(() => setStatus(""), 5000);
          }
       } catch (error) {
+         console.error("Network error:", error);
          setStatus("error");
          setTimeout(() => setStatus(""), 5000);
       } finally {
