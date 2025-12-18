@@ -6,7 +6,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 const allProjects = [
    {
       id: 1,
-      title: 'Compassionate Pet Care Services',
+      title: ' Compassionate Pet Care Services ',
       imageSrc: 'project3.png',
       categories: ['Front End Development', 'React', 'JavaScript'],
       description: 'Caring for your pets with love and professionalism. From walks to grooming, we keep tails wagging and purrs flowing!',
@@ -14,7 +14,7 @@ const allProjects = [
    },
    {
       id: 2,
-      title: ' Finance Management App',
+      title: ' Finance Management App ',
       imageSrc: 'project1.png ',
       categories: ['Back End Development', 'Next.js', 'Laravel'],
       description: 'A full-stack time tracking application featuring secure user authentication, real-time data synchronization, and a robust API for reporting.',
@@ -22,7 +22,7 @@ const allProjects = [
    },
    {
       id: 3,
-      title: ' Building Smarter Apps',
+      title: ' Building Smarter Apps ',
       imageSrc: 'project4.png',
       categories: ['Front End Development', 'Tailwind CSS', 'React'],
       description: 'A complex data visualization dashboard created with React and Tailwind CSS, providing clients with actionable insights into their business metrics.',
@@ -30,7 +30,7 @@ const allProjects = [
    },
    {
       id: 4,
-      title: 'E-commerce API Backend',
+      title: ' E-commerce API Backend ',
       imageSrc: 'project2.png',
       categories: ['Back End Development', 'Laravel', 'JavaScript'],
       description: 'Developed a scalable RESTful API using Laravel for an e-commerce platform, handling product catalog, orders, and payment integration.',
