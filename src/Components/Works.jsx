@@ -7,7 +7,7 @@ const allProjects = [
    {
       id: 1,
       title: ' Compassionate Pet Care Services ',
-      imageSrc: 'project3.png',
+      imageSrc: 'project5.png',
       categories: ['Front End Development', 'React', 'JavaScript'],
       description: 'Caring for your pets with love and professionalism. From walks to grooming, we keep tails wagging and purrs flowing!',
       liveLink: 'https://pet-care-client-ashy.vercel.app',
